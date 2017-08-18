@@ -73,6 +73,8 @@ be prompted for some configuration options.  See below for how this looks.
 
 ### Running
 
+FIRST RUN THIS sudo /opt/hpfeeds/env/bin/python -m pip install --upgrade pyopenssl
+
 If the installation scripts ran successfully, you should have a number of services running on your MHN server.  See below for checking these.
 
     user@precise64:/opt/mhn/scripts$ sudo /etc/init.d/nginx status
